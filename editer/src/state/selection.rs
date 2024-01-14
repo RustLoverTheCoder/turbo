@@ -1,8 +1,10 @@
+#[derive(Debug, PartialEq, Eq)]
 pub enum EditorSelection {
     Text,
     Range(Range),
 }
 
+#[derive(Debug, PartialEq, Eq)]
 struct Range {
     anchor: usize,
     head: Option<usize>,
