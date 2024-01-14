@@ -1,1 +1,9 @@
 pub mod state;
+pub mod view;
+pub mod language;
+pub mod commands;
+pub mod search;
+pub mod autocomplete;
+pub mod lint;
+pub mod collab;
+pub mod language_data;
